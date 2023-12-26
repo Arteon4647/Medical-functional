@@ -39,7 +39,6 @@ article.article.xl h1 {
   line-height: 80px;
   letter-spacing: 0.2px;
 }
-
 article.article.xl h4 {
   color: #737373;
   font-size: 20px;
@@ -93,7 +92,6 @@ article.article p {
   line-height: 24px;
   letter-spacing: 0.1px;
 }
-
 .custom-card p {
   color: #737373;
   font-size: 14px;
@@ -102,7 +100,6 @@ article.article p {
   line-height: 20px;
   letter-spacing: 0.2px;
 }
-
 .custom-card .divider {
   width: 50px;
   height: 2px;
@@ -129,26 +126,22 @@ section .cards {
   height: 7px;
   background: #e74040;
 }
-
 .thumb-section .section-content {
   width: 70%;
   gap: 30px;
   display: flex;
   align-items: center;
 }
-
 .thumb-section .thumb-content {
   display: flex;
   flex-direction: column;
   gap: 35px;
 }
-
 .thumb-section .thumb-content button {
   width: max-content;
   border: 0;
   padding-left: 0;
 }
-
 .thumb-section .thumb-content h2 {
   color: #252b42;
   font-size: 40px;
@@ -157,7 +150,6 @@ section .cards {
   line-height: 50px;
   letter-spacing: 0.2px;
 }
-
 .thumb-section .thumb-content p {
   color: #737373;
   font-size: 14px;
@@ -166,7 +158,6 @@ section .cards {
   line-height: 20px;
   letter-spacing: 0.2px;
 }
-.advice-section {}
 .advice-section .cards-wrapper {
   margin-top: 80px;
   width: 100%;
@@ -204,7 +195,12 @@ section .cards {
   bottom: 25px;
   gap: 10px;
 }
-.advice-section .cards-wrapper .advice-card .card-header .buttons-wrapper button {
+.advice-section
+  .cards-wrapper
+  .advice-card
+  .card-header
+  .buttons-wrapper
+  button {
   display: flex;
   width: 40px;
   height: 40px;
@@ -221,106 +217,154 @@ section .cards {
   .advice-card
   .card-header
   .buttons-wrapper
-  button:first-child i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .advice-section .advice-card .card-body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 25px;
-  }
-  .advice-section .advice-card .card-body .card-body-header .bi-star-fill {
-color: var(--bs-warning);
-  }
-  .advice-section .advice-card .card-body .card-body-header h5 {
-    color: #23a6f0;
+  button:first-child
+  i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advice-section .advice-card .card-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 25px;
+}
+.advice-section .advice-card .card-body .card-body-header .bi-star-fill {
+  color: var(--bs-warning);
+}
+.advice-section .advice-card .card-body .card-body-header h5 {
+  color: #23a6f0;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;
   margin: 0;
-  }
-  .advice-section .advice-card .card-body h5 {
-    color: #252b42;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.1px;
-    margin: 0;
-  }
-  
-  .advice-section .advice-card .card-body p {
-    color: #737373;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    margin: 0;
-  }
-  .advice-section .advice-card .card-body .download i {
+}
+.advice-section .advice-card .card-body h5 {
+  color: #252b42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin: 0;
+}
+.advice-section .advice-card .card-body p {
   color: #737373;
-  }
-  
-  .advice-section .advice-card .card-body .download h6 {
-    color: #737373;
-    font-size: 14px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+.advice-section .advice-card .card-body .download i {
+  color: #737373;
+}
+.advice-section .advice-card .card-body .download h6 {
+  color: #737373;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;
   margin: 0;
-  }
-  .advice-section .advice-card .card-body .price {
-    gap: 5px;
-  }
-  .advice-section .advice-card .card-body .price h5:first-child {
-    color:#BDBDBD;
-    margin: 0;
-  }
-  .advice-section .advice-card .card-body .price h5:last-child {
-    color:#40BB15;
-    margin: 0;
-  }
-  .advice-section .advice-card .card-body .stats {
-    padding: 15px 0;
-  }
-  .advice-section .advice-card .card-body .stats span {
-    color: #737373;
+}
+.advice-section .advice-card .card-body .price {
+  gap: 5px;
+}
+.advice-section .advice-card .card-body .price h5:first-child {
+  color: #bdbdbd;
+  margin: 0;
+}
+.advice-section .advice-card .card-body .price h5:last-child {
+  color: #40bb15;
+  margin: 0;
+}
+.advice-section .advice-card .card-body .stats {
+  padding: 15px 0;
+}
+.advice-section .advice-card .card-body .stats span {
+  color: #737373;
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 0.2px;
-  }
-  .advice-section .advice-card .card-body button {
-    width: max-content;
-    border-radius: 30px;
-  }
-section .cards2 {
+}
+.advice-section .advice-card .card-body button {
+  width: max-content;
+  border-radius: 30px;
+}
+.pricing-section .cards-wrapper {
+  margin-top: 80px;
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+}
+.pricing-section .cards-wrapper .pricing-card {
+  min-width: 30%;
+  padding: 50px 40px;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.pricing-section .cards-wrapper .pricing-card .big-heart {
+  color: white;
+  display: flex;
+  width: 95px;
+  height: 95px;
+  padding: 25px;
+  background-color: #23a6f0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.pricing-section .cards-wrapper .pricing-card h3 {
+  color: #252b42;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+.pricing-section .cards-wrapper .pricing-card h3 {
+  color: #737373;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.pricing-section .cards-wrapper .pricing-card .price h2 {
+  color: #23a6f0;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+.pricing-section .cards-wrapper .pricing-card .price h6 {
+  color: #8ec2f2;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.pricing-section .cards-wrapper .pricing-card .price p {
+  color: #737373;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.client-section .client-card {
   width: 350px;
   padding: 25px;
-  flex-direction: column;
-  align-items: center;
 }
-section .custom-card2 {
-  display: flex;
-  padding: 30px;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  align-self: stretch;
-}
-section .custom-card2 .icons {
-  display: flex;
-}
-section .custom-card2 p {
+.client-section .client-card p {
   width: 160px;
   color: #737373;
   text-align: center;
@@ -331,18 +375,7 @@ section .custom-card2 p {
   letter-spacing: 0.2px;
   margin: 0;
 }
-section .cards2 .users {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-}
-section .cards2 .users .user-name {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-section .cards2 .users .user-name h6 {
+.client-section .client-card .user-name h5 {
   color: #23a6f0;
   font-size: 14px;
   font-style: normal;
@@ -351,7 +384,7 @@ section .cards2 .users .user-name h6 {
   letter-spacing: 0.2px;
   margin: 0;
 }
-section .cards2 .users .user-name p {
+.client-section .client-card .user-name h6 {
   color: #252b42;
   font-size: 12px;
   font-style: normal;
@@ -359,4 +392,10 @@ section .cards2 .users .user-name p {
   line-height: 16px;
   letter-spacing: 0.2px;
   margin: 0;
+}
+.join-section {
+  margin: 70px 0px;
+}
+.join-section .input-group {
+  margin-top: 80px;
 }
